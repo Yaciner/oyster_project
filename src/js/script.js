@@ -2,7 +2,7 @@
 
 const init = () => {
 
-  console.log(`Hello, oyster_code`)
+  console.log(`Hello, oyster_code`);
 
 };
 
