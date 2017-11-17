@@ -5,7 +5,7 @@ const myDiv = document.querySelector(`.wave-two-image`);
 const init = () => {
 
   console.log(`Hello, oyster_code`);
-  animate();
+  //animate();
 
 };
 
@@ -20,6 +20,8 @@ const easeOutBounce = (t, b, c, d) => {
     return c * (7.5625 * (t -= (2.625 / 2.75)) * t + .984375) + b;
   }
 };
+
+//CODE WORKS
 
 const animate = () => {
   const now = Date.now(),

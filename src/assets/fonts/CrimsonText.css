@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: 'CrimsonText SemiBold';
+  src: url(CrimsonText-SemiBold.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'CrimsonText Bold';
   src: url(CrimsonText-Bold.ttf) format('truetype');
   font-weight: normal;

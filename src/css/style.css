@@ -14,11 +14,6 @@ header {
   margin: 2rem 0;
 }
 
-h1 {
-  font-size: 3rem;
-  font-family: 'CrimsonText Bold';
-}
-
 .home {
   width: 100vw;
   height: 100vh;
@@ -26,17 +21,55 @@ h1 {
   background-size: cover;
 }
 
-.babeleir::after {
-  content: '';
-  margin-top: -8vh;
-  width: 100vw;
-  height: 100vh;
+.header-bottle {
   position: absolute;
-  background: url(../assets/img/page_background.png);
-  background-size: cover;
+  left: 43vw;
+  top: 28vh;
 }
 
 .wave-two-image {
   width: 100vw;
-  margin-top: -10vh;
+  position: absolute;
+  top: 78vh;
+}
+
+.wave-one-image {
+  width: 100vw;
+  position: absolute;
+  top: 82vh;
+}
+
+.base-wave-image {
+  width: 100vw;
+  position: absolute;
+  top: 85vh;
+}
+
+.header-boat-image {
+  position: absolute;
+  top: 52vh;
+  left: 5vw;
+}
+
+.header-buoy-image {
+  width: 6vw;
+  height: auto;
+  position: absolute;
+  top: 66vh;
+  left: 30vw;
+}
+
+.header-whale-image {
+  position: absolute;
+  top: 77vh;
+  left: 75vw;
+}
+
+.babeleir {
+  height: 360vh;
+  background-color: #123f56;
+  background-image: url(../assets/img/background_alternation.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center bottom;
 }
