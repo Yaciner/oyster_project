@@ -3,6 +3,8 @@
 
 html {
   background-color: var(--bg-color);
+  background-image: url(../assets/img/filter.png);
+  background-repeat: repeat;
 }
 
 body {
@@ -69,11 +71,9 @@ header {
 
 .container {
   height: 300vh;
-  background-color: #123f56;
-  /*background-image: url(../assets/img/background_alternation.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center bottom;*/
+  background-color: #0d4059;
+  background-image: url(../assets/img/filter.png);
+  background-blend-mode: overlay;
 }
 
 .header_title {
@@ -89,14 +89,14 @@ header {
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2em;
   font-family: Pacifico;
   color: #a8d6ea;
 }
 
 h3 {
   padding-top: 15px;
-  font-size: 4em;
+  font-size: 3.3em;
   font-family: Montserrat Bold;
   color: white;
   text-transform: uppercase;
@@ -169,7 +169,8 @@ h3 {
 
 p {
   font-family: 'CrimsonText Regular';
-  font-size: 1.5em;
+  padding-top: 10px;
+  font-size: 1.3em;
 }
 
 .history-article p {
@@ -203,5 +204,5 @@ p {
   background-image: url(../assets/img/bottom_background.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: 0 -10vh;
+  background-position: 0 -20vh;
 }
