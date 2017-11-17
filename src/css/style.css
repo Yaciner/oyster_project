@@ -51,7 +51,7 @@ header {
 .header-boat-image {
   width: 20vw;
   position: absolute;
-  top: 52vh;
+  top: 53vh;
   left: 5vw;
 }
 
@@ -205,4 +205,11 @@ p {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0 -20vh;
+}
+
+canvas {
+  background-color: none;
+  position: absolute;
+  display: overflow;
+  opacity: .1;
 }
