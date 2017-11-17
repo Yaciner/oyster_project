@@ -8,7 +8,6 @@ html {
 body {
   font-family: Roboto;
   font-size: 1.6rem;
-  margin: 2rem;
 }
 
 header {
@@ -18,4 +17,26 @@ header {
 h1 {
   font-size: 3rem;
   font-family: 'CrimsonText Bold';
+}
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  background: url(../assets/img/home_background.jpg);
+  background-size: cover;
+}
+
+.babeleir::after {
+  content: '';
+  margin-top: -8vh;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background: url(../assets/img/page_background.png);
+  background-size: cover;
+}
+
+.wave-two-image {
+  width: 100vw;
+  margin-top: -10vh;
 }
