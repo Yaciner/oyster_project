@@ -22,6 +22,7 @@ header {
 }
 
 .header-bottle {
+  width: 11vw;
   position: absolute;
   left: 43vw;
   top: 28vh;
@@ -46,6 +47,7 @@ header {
 }
 
 .header-boat-image {
+  width: 20vw;
   position: absolute;
   top: 52vh;
   left: 5vw;
@@ -65,11 +67,141 @@ header {
   left: 75vw;
 }
 
-.babeleir {
-  height: 360vh;
+.container {
+  height: 300vh;
   background-color: #123f56;
+  /*background-image: url(../assets/img/background_alternation.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center bottom;*/
+}
+
+.header_title {
+  height: 55vh;
+  font-family: Montserrat-Bold;
+  color: #0c2d3c;
+  text-transform: uppercase;
+  font-size: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-family: Pacifico;
+  color: #a8d6ea;
+}
+
+h3 {
+  padding-top: 15px;
+  font-size: 4em;
+  font-family: Montserrat Bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.intro-section .header_babeleir {
+  padding-top: 2vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pre-header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.introduction-article {
+  width: 900px;
+  margin: 50px auto;
+  text-align: center;
+  color: white;
+  line-height: 200%;
+}
+
+.history-section {
+  padding-top: 25vh;
+  padding-right: 10vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  background-image: url(../assets/img/background_alternation.png);
+  background-repeat: no-repeat;
+  background-position: 0 1vh;
+  background-size: 100%;
+}
+
+.history-article {
+  display: flex;
+  justify-content: flex-end;
+  width: 30vw;
+  margin-left: 60vw;
+  color: white;
+  line-height: 200%;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
   background-image: url(../assets/img/background_alternation.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: center bottom;
+  background-position: 0 -99vh;
+  padding-bottom: 10vh;
+}
+
+.about-article {
+  width: 30vw;
+  color: white;
+  line-height: 200%;
+}
+
+.stout-img {
+  width: 300px;
+  margin-right: 120px;
+}
+
+p {
+  font-family: 'CrimsonText Regular';
+  font-size: 1.5em;
+}
+
+.history-article p {
+  text-align: right;
+}
+
+.contest-section .header_babeleir {
+  padding-top: 2vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contest-article {
+  width: 900px;
+  margin: 50px auto;
+  text-align: center;
+  color: white;
+  line-height: 200%;
+}
+
+.contest-section {
+  padding-top: 33vh;
+}
+
+.contest-container {
+  margin-top: -2vh;
+  height: 170vh;
+  background-color: #0c3243;
+  background-image: url(../assets/img/bottom_background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 -10vh;
 }
