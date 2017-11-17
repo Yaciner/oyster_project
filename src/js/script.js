@@ -1,12 +1,27 @@
 import Velocity from 'velocity-animate';
-const $waveone = document.querySelector(`.wave-one-image`);
-const $wavetwo = document.querySelector(`.wave-two-image`);
-const $boat = document.querySelector(`.header-boat-image`);
-const $buoy = document.querySelector(`.header-buoy-image`);
-// const $whale = document.querySelector(`.header-whale-image`);
-// const $bottle = document.querySelector(`.header-bottle`);
+import Particles from 'particles.js';
+//import createBubble from './lib/createBubble';
+const $waveone = document.querySelector(`.wave-one-image`),
+  $wavetwo = document.querySelector(`.wave-two-image`),
+  $boat = document.querySelector(`.header-boat-image`),
+  $buoy = document.querySelector(`.header-buoy-image`),
+  $whale = document.querySelector(`.header-whale-image`),
+  $bottle = document.querySelector(`.header-bottle`);
 
 const init = () => {
+  animateSea();
+  createBubbles();
+};
+
+const createBubbles = () => {
+  Particles.load(`particles-js`, `lib/particles.json`,
+    () => {
+      console.log(`callback - particles.js config loaded`);
+    });
+};
+
+
+const animateSea = () => {
   Velocity(
     $waveone,
     {
@@ -47,8 +62,8 @@ const init = () => {
   Velocity(
   $buoy,
     {
-      translateY: `+=3vw`,
-      rotateZ: `+=30`
+      translateY: `+=2vw`,
+      rotateZ: `+=20`
     },
     {
       duration: 4000,
@@ -57,7 +72,31 @@ const init = () => {
     }
   );
 
-};
+  Velocity(
+  $whale,
+    {
+      translateY: `+=1vw`
+    },
+    {
+      delay: 100,
+      duration: 2000,
+      loop: true,
+      easing: `easing`
+    }
+  );
+  Velocity(
+    $bottle,
+    {
+      translateY: `+=1vw`
+    },
+    {
+      delay: 100,
+      duration: 4000,
+      loop: true,
+      easing: `easing`
+    }
+    );
 
+};
 
 init();

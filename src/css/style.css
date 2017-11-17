@@ -207,9 +207,8 @@ p {
   background-position: 0 -20vh;
 }
 
-canvas {
-  background-color: none;
+.svg {
   position: absolute;
-  display: overflow;
-  opacity: .1;
+  bottom: 0;
+  width: 100vw;
 }
