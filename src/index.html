@@ -30,16 +30,104 @@
 </head>
 
 <body>
-  <!-- <canvas class="animation"> -->
   <section class="home">
-    <img src="assets/img/header_boat.png" alt="header boat" class="header-boat-image" />
-    <img src="assets/img/wave-two.png" alt="second wave" class="wave-two-image" />
-    <img src="assets/img/header_buoy.png" alt="header buoy" class="header-buoy-image" />
-    <img src="assets/img/header_whale.png" alt="header whale" class="header-whale-image" />
+    <picture>
+      <source type="image/webp" srcset="assets/img/header_boat.webp" />
+      <img
+      class="header-boat-image"
+      src="assets/img/header_boat.png"
+      srcset="assets/img/header_boat.png 1x,
+              assets/img/header_boat@2x.png 2x"
+      alt="head boat">
+    </picture>
+    <picture>
+        <source type="image/webp" srcset="assets/img/wave-two.webp" />
+      <img
+      class="wave-two-image"
+      src="assets/img/wave-two.png"
+      srcset="assets/img/wave-two.png 1x,
+              assets/img/wave-two@2x.png 2x"
+      alt="second wave">
+    </picture>
+    <!-- <picture>
+      <source type="image/webp" srcset="assets/img/wave-two.webp" />
+      <img src="assets/img/wave-two.png" alt="second wave" class="wave-two-image" />
+    </picture> -->
+
+    <picture>
+      <source type="image/webp" srcset="assets/img/header_buoy.webp" />
+      <img
+      class="header-buoy-image"
+      src="assets/img/header_buoy.png"
+      srcset="assets/img/header_buoy.png 1x,
+              assets/img/header_buoy@2x.png 2x"
+      alt="head buoy">
+    </picture>
+
+    <!-- <picture>
+      <source type="image/webp" srcset="assets/img/header_buoy.webp" />
+      <img src="assets/img/header_buoy.png" alt="header buoy" class="header-buoy-image" />
+    </picture> -->
+    <picture>
+      <source type="image/webp" srcset="assets/img/header_whale.webp" />
+      <img
+      class="header-whale-image"
+      src="assets/img/header_whale.png"
+      srcset="assets/img/header_whale.png 1x,
+              assets/img/header_whale@2x.png 2x"
+      alt="head buoy">
+    </picture>
+    <!-- <picture>
+      <source type="image/webp" srcset="assets/img/header_whale.webp" />
+      <img src="assets/img/header_whale.png" alt="header whale" class="header-whale-image" />
+    </picture> -->
+    <picture>
+      <source type="image/webp" srcset="assets/img/wave-one.webp" />
+      <img
+      class="wave-one-image"
+      src="assets/img/wave-one.png"
+      srcset="assets/img/wave-one.png 1x,
+              assets/img/wave-one@2x.png 2x"
+      alt="wave one">
+    </picture>
+    <!-- <picture>
+      <source type="image/webp" srcset="assets/img/wave-one.webp" />
+      <img src="assets/img/wave-one.png" alt="first wave" class="wave-one-image" />
+    </picture> -->
+    <picture>
+      <source type="image/webp" srcset="assets/img/header_bottle.webp" />
+      <img
+      class="header-bottle"
+      src="assets/img/header_bottle.png"
+      srcset="assets/img/header_bottle.png 1x,
+              assets/img/header_bottle@2x.png 2x"
+      alt="head bottle">
+    </picture>
+    <!-- <picture>
+      <source type="image/webp" srcset="assets/img/header_bottle.webp" />
+      <img src="assets/img/header_bottle.png" alt="header bottle" class="header-bottle" />
+    </picture> -->
+    <!-- <img src="assets/img/header_boat.png" alt="header boat" class="header-boat-image" /> -->
+    <!-- <img src="assets/img/wave-two.png" alt="second wave" class="wave-two-image" />
+    <img src="assets/img/header_buoy.png" alt="header buoy" class="header-buoy-image" /> -->
+    <!-- <img src="assets/img/header_whale.png" alt="header whale" class="header-whale-image" />
     <img src="assets/img/wave-one.png" alt="first wave" class="wave-one-image" />
-    <img src="assets/img/header_bottle.png" alt="header bottle" class="header-bottle" />
+    <img src="assets/img/header_bottle.png" alt="header bottle" class="header-bottle" /> -->
     <h1 class="header_title">Dive into a new year</h1>
-    <img src="assets/img/base_wave.png" alt="base wave" class="base-wave-image" />
+    <picture>
+      <source type="image/webp" srcset="assets/img/base_wave.webp" />
+      <img
+      class="base-wave-image"
+      src="assets/img/base_wave.png"
+      srcset="assets/img/base_wave.png 1x,
+              assets/img/base_wave@2x.png 2x"
+      alt="base wave">
+    </picture>
+    <!-- <picture>
+      <source type="image/webp" srcset="assets/img/base_wave.webp" />
+      <img src="assets/img/base_wave.png" alt="base wave" class="base-wave-image" />
+    </picture> -->
+    <!-- <img src="assets/img/base_wave.png" alt="base wave" class="base-wave-image" /> -->
   </section>
 <main>
   <section class="container">
@@ -120,7 +208,48 @@
           </p>
         </article>
       </section>
+
+      <section class="form-section">
+        <header class="header_babeleir">
+          <div class="pre-header-container">
+            <h2>Don't hesitate</h2>
+          </div>
+          <h3>Send us your best selfie</h3>
+        </header>
+        <article class="contest-article">
+          <p>
+            The beer Brussels project especially remade this beer for you, lover of france and sea.
+            The Babeleir De Bretagne is a combination of delicious beer and fresh oysters.</br></br>
+            If you want a unique experience scroll down and discover our  contest and win an insanly awesome Newyears reception with your crew.
+          </p>
+        </article>
+        <form action="index.html" method="">
+          <fieldset>
+            <legend>your first name</legend>
+            <input type="text" name="first_name" />
+          </fieldset>
+          <fieldset>
+            <legend>your last name</legend>
+            <input type="text" name="first_name" />
+          </fieldset>
+          <fieldset>
+            <fieldset class="form-double-input">
+              <legend>upload your selfie</legend>
+              <input type="text" name="first_name" />
+            </fieldset>
+            <fieldset class="form-double-input">
+              <legend>Your crew name</legend>
+              <input type="text" name="first_name" />
+            </fieldset>
+          </fieldset>
+          <button name="submit-button" type="button">Submit</button>
+
+        </form>
+      </section>
+
     </section>
+
+
 
   </section>
 </main>

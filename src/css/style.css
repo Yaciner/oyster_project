@@ -3,8 +3,6 @@
 
 html {
   background-color: var(--bg-color);
-  background-image: url(../assets/img/filter.png);
-  background-repeat: repeat;
 }
 
 body {
@@ -21,6 +19,13 @@ header {
   height: 100vh;
   background: url(../assets/img/home_background.jpg);
   background-size: cover;
+  /* stylelint-disable */
+  /*IMAGE SET DOES NOT SUPPORT FURTHER POSITION OR SIZE PROPS...*/
+  /*background:image-set(
+    url(../assets/img/header-bg-texture/header-bg-texture.jpg) 1x,
+    url(../assets/img/header-bg-texture/header-bg-texture@2x.jpg) 2x
+  ) repeat;*/
+    /* stylelint-enable */
 }
 
 .header-bottle {
@@ -78,7 +83,7 @@ header {
 
 .header_title {
   height: 55vh;
-  font-family: Montserrat-Bold;
+  font-family: 'Montserrat Bold';
   color: #0c2d3c;
   text-transform: uppercase;
   font-size: 6em;
@@ -185,6 +190,14 @@ p {
   text-align: center;
 }
 
+.form-section .header_babeleir {
+  padding-top: 2vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
 .contest-article {
   width: 900px;
   margin: 50px auto;
@@ -197,6 +210,13 @@ p {
   padding-top: 33vh;
 }
 
+.form-section {
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .contest-container {
   margin-top: -2vh;
   height: 170vh;
@@ -205,6 +225,17 @@ p {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0 -20vh;
+}
+
+form {
+  margin: 0 auto;
+  width: 850px;
+}
+
+.form-double-input {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .svg {
