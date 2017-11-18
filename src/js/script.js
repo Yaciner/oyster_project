@@ -1,6 +1,5 @@
 import Velocity from 'velocity-animate';
-import Particles from 'particles.js';
-//import createBubble from './lib/createBubble';
+//import createElementSVG from './lib/createBubble';
 const $waveone = document.querySelector(`.wave-one-image`),
   $wavetwo = document.querySelector(`.wave-two-image`),
   $boat = document.querySelector(`.header-boat-image`),
@@ -14,10 +13,7 @@ const init = () => {
 };
 
 const createBubbles = () => {
-  Particles.load(`particles-js`, `lib/particles.json`,
-    () => {
-      console.log(`callback - particles.js config loaded`);
-    });
+
 };
 
 
@@ -50,7 +46,8 @@ const animateSea = () => {
   Velocity(
   $boat,
     {
-      translateY: `+=1vw`
+      translateY: `+=1vw`,
+      rotateZ: `-2`
     },
     {
       duration: 2100,

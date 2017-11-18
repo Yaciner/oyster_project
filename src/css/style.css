@@ -10,7 +10,7 @@ body {
   font-size: 1.6rem;
 }
 
-header {
+h4 {
   margin: 2rem 0;
 }
 
@@ -32,7 +32,12 @@ header {
   width: 11vw;
   position: absolute;
   left: 43vw;
-  top: 28vh;
+  top: 30%;
+}
+
+.hidden {
+  display: none;
+  position: absolute;
 }
 
 .wave-two-image {
@@ -81,8 +86,13 @@ header {
   background-blend-mode: overlay;
 }
 
-.header_title {
+.text-header-container {
   height: 55vh;
+  padding-top: 20vh;
+}
+
+.header_title {
+
   font-family: 'Montserrat Bold';
   color: #0c2d3c;
   text-transform: uppercase;
@@ -117,6 +127,7 @@ h3 {
 
 .pre-header-container {
   display: flex;
+  padding-top: 2vh;
   justify-content: center;
 }
 
@@ -158,7 +169,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0 -99vh;
-  padding-bottom: 10vh;
+  padding-bottom: 15vh;
 }
 
 .about-article {
@@ -173,7 +184,7 @@ h3 {
 }
 
 p {
-  font-family: 'CrimsonText Regular';
+  font-family: 'CrimsonText SemiBold';
   padding-top: 10px;
   font-size: 1.3em;
 }
@@ -204,10 +215,6 @@ p {
   text-align: center;
   color: white;
   line-height: 200%;
-}
-
-.contest-section {
-  padding-top: 33vh;
 }
 
 .form-section {
@@ -242,4 +249,155 @@ form {
   position: absolute;
   bottom: 0;
   width: 100vw;
+}
+
+label {
+  font-family: 'Montserrat Regular';
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #97bbc9;
+  padding: 10px 0;
+}
+
+fieldset {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  background-color: rgba(61, 103, 122, .3);
+  border-radius: 10px;
+}
+
+legend {
+  font-family: 'Montserrat Bold';
+  color: white;
+  font-size: 1.4em;
+  padding: 30px;
+  text-transform: uppercase;
+}
+
+input[type='text'] {
+  background-color: transparent;
+  font-size: 1.5em;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+  border-bottom: 2px white solid;
+  margin-bottom: 30px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form-container {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+input::placeholder {
+  color: #7c8f97;
+}
+
+.double-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.double-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.submit-button {
+  margin-top: 30px;
+  width: 240px;
+  height: 40px;
+  align-self: center;
+  margin-right: 40px;
+  background-color: white;
+  border: none;
+  color: #0e2e3b;
+  font-family: 'Montserrat Bold';
+  font-size: 1.4em;
+}
+
+button:hover {
+  background-color: #97bbc9;
+  color: white;
+  cursor: pointer;
+}
+
+button:active {
+  outline: none;
+}
+
+.inputfile {
+  width: .1px;
+  height: .1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile + label {
+  font-size: 1em;
+  font-weight: 700;
+  color: white;
+  background-color: #2f5a6d;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+  background-color: white;
+  color: #0e2e3b;
+}
+
+.inputfile:focus + label {
+  outline: 1px dotted #0e2e3b;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.highlight {
+  color: #a9d6e9;
+  font-weight: bold;
+}
+
+.subtitle-header {
+  display: flex;
+  justify-content: center;
+  top: 30vh;
+  color: #215c78;
+}
+
+.highlight:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.diver-image {
+  position: absolute;
+  padding-left: 10vw;
+  margin-top: 10vh;
+  width: 500px;
+}
+
+svg {
+  width: 100vw;
+  z-index: 999;
+  left: 0;
+  position: absolute;
+}
+
+.logo-bbp {
+  width: 200px;
+  padding: 20px;
+  position: fixed;
 }

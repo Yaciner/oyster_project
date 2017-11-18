@@ -3,7 +3,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Hello, oyster_code</title>
+  <title>Babeleir De Bretagne</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
   <script>
@@ -32,6 +32,15 @@
 <body>
   <section class="home">
     <picture>
+      <source type="image/webp" srcset="assets/img/logo.webp" />
+      <img
+      class="logo-bbp"
+      src="assets/img/header_boat.png"
+      srcset="assets/img/logo.png 1x,
+              assets/img/logo@2x.png 2x"
+      alt="logo">
+    </picture>
+    <picture>
       <source type="image/webp" srcset="assets/img/header_boat.webp" />
       <img
       class="header-boat-image"
@@ -49,11 +58,6 @@
               assets/img/wave-two@2x.png 2x"
       alt="second wave">
     </picture>
-    <!-- <picture>
-      <source type="image/webp" srcset="assets/img/wave-two.webp" />
-      <img src="assets/img/wave-two.png" alt="second wave" class="wave-two-image" />
-    </picture> -->
-
     <picture>
       <source type="image/webp" srcset="assets/img/header_buoy.webp" />
       <img
@@ -63,11 +67,6 @@
               assets/img/header_buoy@2x.png 2x"
       alt="head buoy">
     </picture>
-
-    <!-- <picture>
-      <source type="image/webp" srcset="assets/img/header_buoy.webp" />
-      <img src="assets/img/header_buoy.png" alt="header buoy" class="header-buoy-image" />
-    </picture> -->
     <picture>
       <source type="image/webp" srcset="assets/img/header_whale.webp" />
       <img
@@ -77,10 +76,6 @@
               assets/img/header_whale@2x.png 2x"
       alt="head buoy">
     </picture>
-    <!-- <picture>
-      <source type="image/webp" srcset="assets/img/header_whale.webp" />
-      <img src="assets/img/header_whale.png" alt="header whale" class="header-whale-image" />
-    </picture> -->
     <picture>
       <source type="image/webp" srcset="assets/img/wave-one.webp" />
       <img
@@ -90,10 +85,6 @@
               assets/img/wave-one@2x.png 2x"
       alt="wave one">
     </picture>
-    <!-- <picture>
-      <source type="image/webp" srcset="assets/img/wave-one.webp" />
-      <img src="assets/img/wave-one.png" alt="first wave" class="wave-one-image" />
-    </picture> -->
     <picture>
       <source type="image/webp" srcset="assets/img/header_bottle.webp" />
       <img
@@ -103,17 +94,10 @@
               assets/img/header_bottle@2x.png 2x"
       alt="head bottle">
     </picture>
-    <!-- <picture>
-      <source type="image/webp" srcset="assets/img/header_bottle.webp" />
-      <img src="assets/img/header_bottle.png" alt="header bottle" class="header-bottle" />
-    </picture> -->
-    <!-- <img src="assets/img/header_boat.png" alt="header boat" class="header-boat-image" /> -->
-    <!-- <img src="assets/img/wave-two.png" alt="second wave" class="wave-two-image" />
-    <img src="assets/img/header_buoy.png" alt="header buoy" class="header-buoy-image" /> -->
-    <!-- <img src="assets/img/header_whale.png" alt="header whale" class="header-whale-image" />
-    <img src="assets/img/wave-one.png" alt="first wave" class="wave-one-image" />
-    <img src="assets/img/header_bottle.png" alt="header bottle" class="header-bottle" /> -->
-    <h1 class="header_title">Dive into a new year</h1>
+    <div class="text-header-container">
+      <h2 class="subtitle-header">Discover the new Babeleir De Bretagne</h2>
+      <h1 class="header_title">Dive into a new year</h1>
+    </div>
     <picture>
       <source type="image/webp" srcset="assets/img/base_wave.webp" />
       <img
@@ -123,14 +107,10 @@
               assets/img/base_wave@2x.png 2x"
       alt="base wave">
     </picture>
-    <!-- <picture>
-      <source type="image/webp" srcset="assets/img/base_wave.webp" />
-      <img src="assets/img/base_wave.png" alt="base wave" class="base-wave-image" />
-    </picture> -->
-    <!-- <img src="assets/img/base_wave.png" alt="base wave" class="base-wave-image" /> -->
   </section>
 <main>
   <section class="container">
+    <h4 class="hidden">Babeleir de bretagne website</h4>
     <section class="intro-section">
       <header class="header_babeleir">
         <div class="pre-header-container">
@@ -139,12 +119,13 @@
         <h3>Babeleir de bretagne</h3>
       </header>
       <article class="introduction-article">
+        <h4 class="hidden">Introduction to Babeleir</h4>
         <p>
         The Brussels Beer Project especially remade this beer for you, lovers of france and sea.
-        The Babeleir De Bretagne is a combination of delicious beer and fresh oysters. </br></br>
+        The Babeleir De Bretagne is a combination of <span class="highlight">delicious beer</span> and fresh oysters. <br /><br />
 
-        We hope you also love diving, because if you do, you and your crew will be the best candidates for an amazing
-        contest to win an NYE reception! </br></br>
+        We hope you also love <span class="highlight">scuba diving</span>, because if you do, you and your crew will be the best candidates for an amazing
+        contest to win an <span class="highlight">NYE reception!</span> <br /><br />
 
         Can you already taste the bitter sweet in your mouth? I bet.
         It’s a new recipe and we know you’ll love it, so scroll down and discover more about our new Babeleir edition &amp; our NYE contest.
@@ -153,24 +134,34 @@
         </p>
       </article>
     </section>
-
+    <picture>
+      <source type="image/webp" srcset="assets/img/diver.webp" />
+      <img
+      class="diver-image"
+      src="assets/img/diver.png"
+      srcset="assets/img/diver.png 1x,
+              assets/img/diver@2x.png 2x"
+      alt="base wave">
+    </picture>
     <section class="history-section">
       <header class="header_babeleir">
         <div>
-          <h2>You should know</h2>
+          <h2>Babeleir, Brittany &amp; Scuba Diving</h2>
         </div>
         <h3>A little history</h3>
       </header>
       <article class="history-article">
+        <h4 class="hidden">History of Babeleir and Scuba Diving</h4>
         <p>
-        Althought the idea of combining beer &amp; oysters did not come from Brittany, we have an oysterfarm in Brittany and it has the best oysters ever!
-        We made sure to combine exactly with the best to provide excellent quality to you.</br></br>
-        Great thing that we have divers all over the world loving this beer, are you one of them? Because if so, gear up to get divin'!
+        Althought the idea of combining <span class="highlight">beer &amp; oysters</span> did not come from Brittany, we have an oysterfarm in Brittany and it has the best oysters ever!
+        We made sure to combine exactly with the best to provide <span class="highlight">excellent quality</span> to you.<br /><br />
+        Great thing that we have scuba divers all over the world loving this beer, are you one of them? Because if so, <span class="highlight">gear up to get divin'!</span>
         </p>
       </article>
     </section>
 
     <section class="about-container">
+      <h4 class="hidden">Information about the new edition - container</h4>
       <div class="about-image-container">
         <img class="stout-img" src="assets/img/stout_beer.png" alt="stout bier afbeelding" />
       </div>
@@ -182,9 +173,11 @@
           <h3>Stout beer</h3>
         </header>
         <article class="about-article">
+          <h4 class="hidden">Information about the edition</h4>
           <p>
-            Everyone knows that beer is made of cereal grain right? Well yeah, but did you know our beer also contains chocolate?</br></br>
-            It’s not much but enough to give you an amazing extra taste together with the oysters.
+            Everyone knows that beer is made of cereal grain right? Well yeah, but did you know our beer also contains <span class="highlight">chocolate?</span><br /><br />
+            It’s not much but enough to give you an amazing extra taste together with the oysters. <br/><br/>We motivate people to combine new tastes
+            in beer at <span class="highlight">Brussels Beer Project</span>, if you have an amazing idea you can always mail us.
 
 
           </p>
@@ -193,6 +186,7 @@
     </section>
 
     <section class="contest-container">
+      <h4 class="hidden">Information about the contest - container</h4>
       <section class="contest-section">
         <header class="header_babeleir">
           <div class="pre-header-container">
@@ -201,59 +195,59 @@
           <h3>NYE WITH YOUR CREW &amp; US</h3>
         </header>
         <article class="contest-article">
+          <h4 class="hidden">Information about the contest</h4>
           <p>
-            The beer Brussels project especially remade this beer for you, lover of france and sea.
-            The Babeleir De Bretagne is a combination of delicious beer and fresh oysters.</br></br>
-            If you want a unique experience scroll down and discover our  contest and win an insanly awesome Newyears reception with your crew.
+            For this new coming year we come to you with an <span class="highlight">exclusive contest to win an amazing NYE reception</span> with Babeleir De Bretagne.
+            You'll have an excellent experience scuba diving in the seas of Bretagne and have a drink on our <span class="highlight">boat!</span><br/><br/>
+            The boat will be specially covered and <span class="highlight">set sail</span> for the ones who would like <span class="highlight">to go scuba diving </span> and discover the seas of Brittany.<br /><br />
+            Bellow you will have more information about what your crew &amp; you have to do, to try to win the price!
           </p>
         </article>
       </section>
 
       <section class="form-section">
         <header class="header_babeleir">
-          <div class="pre-header-container">
-            <h2>Don't hesitate</h2>
-          </div>
-          <h3>Send us your best selfie</h3>
+          <h2>and win an amazing nye reception</h2>
         </header>
         <article class="contest-article">
+          <h4 class="hidden">Who can participate</h4>
           <p>
-            The beer Brussels project especially remade this beer for you, lover of france and sea.
-            The Babeleir De Bretagne is a combination of delicious beer and fresh oysters.</br></br>
-            If you want a unique experience scroll down and discover our  contest and win an insanly awesome Newyears reception with your crew.
+            So what <span class="highlight">you &amp; your scuba diving crew </span> need to do is take an <span class="highlight">undersea selfie</span> with your phone, while holding a Babeleir de bretagne!<br/><br/>
+            Pretty easy right? I doubt it, since you have to try to be as original as possible, because that's the crew who makes the most chance to
+            deserve the price. Don't forget that you have to take a picture with your crew, not just on your own.
           </p>
         </article>
-        <form action="index.html" method="">
+        <form action="index.html" method="post">
           <fieldset>
-            <legend>your first name</legend>
-            <input type="text" name="first_name" />
-          </fieldset>
-          <fieldset>
-            <legend>your last name</legend>
-            <input type="text" name="first_name" />
-          </fieldset>
-          <fieldset>
-            <fieldset class="form-double-input">
-              <legend>upload your selfie</legend>
-              <input type="text" name="first_name" />
-            </fieldset>
-            <fieldset class="form-double-input">
-              <legend>Your crew name</legend>
-              <input type="text" name="first_name" />
-            </fieldset>
-          </fieldset>
-          <button name="submit-button" type="button">Submit</button>
+            <legend>Your personal information</legend>
+            <div class="form-container">
+              <label>your first name</label>
+              <input class="text-input" type="text" name="first_name" placeholder="James" required />
 
+              <label>your last name</label>
+              <input class="text-input" type="text" name="last_name" placeholder="Cameron" required />
+              <div class="double-input-container">
+                <div class="double-input">
+                  <label>Your selfie</label>
+                  <input type="file" name="file" id="file" class="inputfile" accept="image/*" required />
+                  <label for="file">Choose a file</label>
+                </div>
+                <div class="double-input">
+                  <label>Your crew name</label>
+                  <input class="text-input" type="text" name="crew_name" placeholder="Dive4life" required/>
+                </div>
+              </div>
+              <button name="submit-button" type="submit" class="submit-button">Submit</button>
+            </div>
+          </fieldset>
         </form>
       </section>
-
     </section>
 
 
 
   </section>
 </main>
-<div id="particles-js"></div>
 </body>
 
 </html>
